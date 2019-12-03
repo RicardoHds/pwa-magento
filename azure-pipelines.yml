@@ -19,3 +19,7 @@ steps:
     yarn install
     yarn run build
   displayName: 'yarn install and build'
+
+- script: |
+    yarn run watch:venia
+  displayName: 'Run watch'
