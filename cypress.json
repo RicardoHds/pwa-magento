@@ -1,0 +1,6 @@
+{
+    "video": false,
+    "env": {
+        "START_SERVER_AND_TEST_INSECURE": 1
+    }
+}

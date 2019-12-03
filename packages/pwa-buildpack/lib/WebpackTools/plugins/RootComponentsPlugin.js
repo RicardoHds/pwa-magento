@@ -198,7 +198,7 @@ class RootComponentsPlugin {
         const importerFactory = `() => {
             const getKey = ${toRootComponentMapKey.toString()};
             const esModuleInterop = ${esModuleInterop.toString()};
-            const rootComponentsMap = ${rootComponentsMap};
+            const rootComponentsMap = ${rootComponentsMap.replace(/\\/g,"/")};
             return ${importer}
         }`;
 
