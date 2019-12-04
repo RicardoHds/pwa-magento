@@ -43,7 +43,7 @@
     "venia": "node ./packages/pwa-buildpack/bin/buildpack load-env ./packages/venia-concept && yarn workspace @magento/venia-concept",
     "watch:all": "node scripts/watch-all.js",
     "watch:venia": "yarn venia run watch",
-    "startTest": "start-server-and-test watch:venia https://master-7rqtwti-mfwmkrjfqvbjk.us-4.magentosite.cloud/ cypress",
+    "startTest": "start-server-and-test watch:venia http://0.0.0.0:10000/ cypress",
     "cypress": "cypress run --browser chrome"
   },
   "devDependencies": {
