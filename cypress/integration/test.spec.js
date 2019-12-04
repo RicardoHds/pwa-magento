@@ -1,5 +1,5 @@
 describe('Test click', () => {
     it('focus', () => {
-        cy.visit('https://magento-venia-concept-p-ecv.local.pwadev:8481/')
+        cy.visit('http://0.0.0.0:10000/')
     })
 })
